@@ -3,6 +3,7 @@ colorscheme badwolf
 syntax enable
 set tabstop=4
 set softtabstop=4
+set shiftwidth=4
 set expandtab
 set showcmd             " show command in bottom bar
 set cursorline
@@ -13,6 +14,8 @@ set incsearch
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 
+set modeline
+set paste
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
