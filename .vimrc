@@ -19,6 +19,10 @@ set paste
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+" ignore 
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc     " MacOSX/Linux
+"set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.pyc  " Windows
+
 " CtrlP settings
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
