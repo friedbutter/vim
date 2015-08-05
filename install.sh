@@ -8,5 +8,8 @@ cp .vimrc ~/.vimrc
 cp -r .vim ~/.vim
 cd ~/.vim/
 git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
+cd ~/.vim
+mkdir -p bundle && cd bundle
+git clone git://github.com/klen/python-mode.git
 cd $curpath
 echo "Install completed"
