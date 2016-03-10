@@ -3,5 +3,5 @@
 To install
 
 ```bash
-clone https://github.com/stynr/vim.git && cd vim && sh install.sh
+clone https://github.com/friedbutter/vim.git && cd vim && sh install.sh
 ```
