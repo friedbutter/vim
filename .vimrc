@@ -6,6 +6,7 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set showcmd             " show command in bottom bar
+set cuc cul             " highlight column
 set cursorline
 set wildmenu
 set lazyredraw 
